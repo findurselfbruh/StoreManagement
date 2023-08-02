@@ -1,6 +1,5 @@
 package com.example.aks.Repository;
 
-import com.example.aks.Dto.SearchRequest;
 import com.example.aks.Entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 

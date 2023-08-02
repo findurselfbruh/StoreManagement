@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ShopController {
     @Autowired
     private ShopService shopService;
-    @PostMapping("/ak")
+    @PostMapping("/save")
     public ResponseEntity<Shop> saveShop(@RequestBody Shop shop){
 
         return  new ResponseEntity<>(shopService.saveShop(shop), HttpStatus.CREATED);

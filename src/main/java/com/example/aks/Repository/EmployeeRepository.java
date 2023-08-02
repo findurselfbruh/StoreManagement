@@ -1,6 +1,5 @@
 package com.example.aks.Repository;
 
-import com.example.aks.Entity.Customer;
 import com.example.aks.Entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 

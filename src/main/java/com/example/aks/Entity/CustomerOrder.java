@@ -18,6 +18,8 @@ public class CustomerOrder {
     private long orderId;
     @Column(name = "product_id")
     private long productId;
+    @Column(name = "customer_id")
+    private long customerId;
     @Column(name = "order_product_qty")
     private long orderProductQty;
     @Column(name = "total_price")

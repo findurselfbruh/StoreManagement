@@ -1,7 +1,6 @@
 package com.example.aks.Controller;
 
 import com.example.aks.Dto.SearchRequest;
-import com.example.aks.Entity.Customer;
 import com.example.aks.Entity.Employee;
 import com.example.aks.Service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
